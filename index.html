@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Hotel name]| Luxury Hotel & Spa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="preloader" id="preloader">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+        <h2 class="loader-text">[HOTEL NAME]</h2>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">[HOTEL NAME]</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#rooms" class="nav-link">Rooms</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#rooms" class="btn btn-primary nav-btn">Book Now</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1920&q=80');"></div>
+        </div>
+        <div class="hero-content content-reveal">
+            <span class="hero-subtitle">WELCOME TO PARADISE</span>
+            <h1 class="hero-title">Experience Luxury & Comfort</h1>
+            <p class="hero-desc">A refined sanctuary where modern elegance meets timeless European heritage luxury hospitality.</p>
+            <div class="hero-btns">
+                <a href="#rooms" class="btn btn-primary">Book Now</a>
+                <a href="#about" class="btn btn-outline">Explore Rooms</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section section-padding scroll-reveal">
+        <div class="container layout-2col">
+            <div class="about-text">
+                <span class="section-subtitle">OUR STORY</span>
+                <h2 class="section-title">A Legacy of Refined Elegance</h2>
+                <p>Since our establishment, The Grand Aura has redefined 5-star hospitality. Nestled in a pristine location, we offer an unparalleled blend of luxury, bespoke comfort, and deep commitment to personal service.</p>
+                <p>Every corner is meticulously designed to offer a visual treat, ensuring that your stay becomes an unforgettable memory of indulgence and tranquility.</p>
+                <div class="about-features">
+                    <div class="about-feat-item"><i class="fa-solid fa-award"></i> 5-Star Rated Excellence</div>
+                    <div class="about-feat-item"><i class="fa-solid fa-bell"></i> 24/7 Royal Concierge</div>
+                </div>
+            </div>
+            <div class="about-img-box">
+                <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80" alt="Luxury Hotel Interior" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms-section section-padding scroll-reveal">
+        <div class="container text-center">
+            <span class="section-subtitle">ACCOMMODATION</span>
+            <h2 class="section-title">Our Premium Rooms & Suites</h2>
+        </div>
+        <div class="container grid-3col">
+            <div class="room-card">
+                <div class="room-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=600&q=80" alt="Deluxe Room" class="room-img">
+                    <span class="room-price">$250 / Night</span>
+                </div>
+                <div class="room-info">
+                    <h3>Deluxe Room</h3>
+                    <ul class="room-features">
+                        <li><i class="fa-solid fa-maximize"></i> 45 m² / Garden View</li>
+                        <li><i class="fa-solid fa-bed"></i> 1 King Bed</li>
+                        <li><i class="fa-solid fa-wifi"></i> Free High-Speed Wi-Fi</li>
+                    </ul>
+                    <button class="btn btn-primary full-width modal-trigger">Book Now</button>
+                </div>
+            </div>
+            <div class="room-card">
+                <div class="room-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=600&q=80" alt="Premium Room" class="room-img">
+                    <span class="room-price">$400 / Night</span>
+                </div>
+                <div class="room-info">
+                    <h3>Premium Room</h3>
+                    <ul class="room-features">
+                        <li><i class="fa-solid fa-maximize"></i> 60 m² / Ocean View</li>
+                        <li><i class="fa-solid fa-bed"></i> 1 Royal King Bed</li>
+                        <li><i class="fa-solid fa-glass-water"></i> Complimentary Mini Bar</li>
+                    </ul>
+                    <button class="btn btn-primary full-width modal-trigger">Book Now</button>
+                </div>
+            </div>
+            <div class="room-card">
+                <div class="room-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=600&q=80" alt="Suite Room" class="room-img">
+                    <span class="room-price">$650 / Night</span>
+                </div>
+                <div class="room-info">
+                    <h3>The Aura Suite</h3>
+                    <ul class="room-features">
+                        <li><i class="fa-solid fa-maximize"></i> 110 m² / Panoramic View</li>
+                        <li><i class="fa-solid fa-hot-tub-person"></i> Private Jacuzzi & Lounge</li>
+                        <li><i class="fa-solid fa-user-shield"></i> 24/7 Private Butler</li>
+                    </ul>
+                    <button class="btn btn-primary full-width modal-trigger">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section section-padding scroll-reveal">
+        <div class="container text-center">
+            <span class="section-subtitle">OUR AMENITIES</span>
+            <h2 class="section-title">World-Class Services</h2>
+        </div>
+        <div class="container grid-3col">
+            <div class="service-box">
+                <i class="fa-solid fa-wifi service-icon"></i>
+                <h3>Free High-Speed WiFi</h3>
+                <p>Stay seamlessly connected anywhere across the resort premises with absolute high-speed connectivity.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-utensils service-icon"></i>
+                <h3>Fine Dining Restaurant</h3>
+                <p>Relish exceptional global cuisines prepared gracefully by Michelin-starred culinary professionals.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-person-swimming service-icon"></i>
+                <h3>Infinity Swimming Pool</h3>
+                <p>Take a relaxing dip into our temperature-controlled beautiful crystal clear sky infinity pool.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-bell-concierge service-icon"></i>
+                <h3>24/7 Room Service</h3>
+                <p>Experience ultra-luxury at your absolute doorstep around the clock with seamless gourmet choices.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-square-parking service-icon"></i>
+                <h3>Valet Parking</h3>
+                <p>Secure, smart and hassle-free valet parking solution fully managed by elite hospitality experts.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-snowflake service-icon"></i>
+                <h3>Smart AC Rooms</h3>
+                <p>Personalized climate automated control panels to ensure unmatched luxury comfort limits.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section section-padding scroll-reveal">
+        <div class="container text-center">
+            <span class="section-subtitle">VISUAL JOURNEY</span>
+            <h2 class="section-title">Our Captured Luxury Moments</h2>
+        </div>
+        <div class="container masonry-grid">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80" alt="Spa" class="gallery-img"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80" alt="Restaurant" class="gallery-img"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=600&q=80" alt="Poolside" class="gallery-img"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80" alt="Lobby" class="gallery-img"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=600&q=80" alt="Entrance" class="gallery-img"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=600&q=80" alt="View" class="gallery-img"></div>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="Enlarged View">
+    </div>
+
+    <section id="reviews" class="reviews-section section-padding scroll-reveal">
+        <div class="container text-center">
+            <span class="section-subtitle">TESTIMONIALS</span>
+            <h2 class="section-title">What Our Royalty Guests Say</h2>
+        </div>
+        <div class="container testimonial-container">
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="review-text">"An absolute paradise on Earth. The architecture, the bespoke room service layout, and the infinity pool took our vacation to a whole new level."</p>
+                    <h4 class="guest-name">Alexander V.</h4>
+                    <span class="guest-title">Executive Guest</span>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="review-text">"Flawless hospitality standards. The attention to detail provided by the Concierge staff was incredibly exquisite. Highly recommended!"</p>
+                    <h4 class="guest-name">Sophia Loren</h4>
+                    <span class="guest-title">Premium Suite Guest</span>
+                </div>
+            </div>
+            <div class="slider-dots" id="slider-dots"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding scroll-reveal">
+        <div class="container text-center">
+            <span class="section-subtitle">GET IN TOUCH</span>
+            <h2 class="section-title">Connect With Us</h2>
+        </div>
+        <div class="container layout-2col">
+            <div class="contact-form-box">
+                <form id="hotel-contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required placeholder="Enter your beautiful name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required placeholder="Enter email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5" required placeholder="How can we assist you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Elegant Message</button>
+                </form>
+            </div>
+            <div class="location-box">
+                <div class="info-details">
+                    <p><i class="fa-solid fa-location-dot gold-color"></i> Your Luxury Hotel Address Here, India</p>
+                    <p><i class="fa-solid fa-phone gold-color"></i> +91-XXXXXXXXXX</p>
+                    <p><i class="fa-solid fa-envelope gold-color"></i> concierge@grandaurahotel.com</p>
+                </div>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.617540327918!2d-73.98685368459392!3d40.74844047932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="floating-container">
+        <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <button id="back-to-top" aria-label="Back to Top"><i class="fa-solid fa-chevron-up"></i></button>
+    </div>
+
+    <footer class="footer">
+        <div class="container grid-4col">
+            <div class="footer-brand">
+                <h3>THE GRAND AURA</h3>
+                <p>Experience an immersive paradigm shift in premium resort living standards across beautifully preserved architectural ecosystems.</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/xxxxx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#rooms">Rooms & Suites</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Cancellation Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Newsletter</h4>
+                <p>Subscribe to receive exclusive royal deals and seasonal updates.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your Email">
+                    <button><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <hr>
+            <p>&copy; 2026 THE GRAND AURA. All Rights Reserved. Crafted with sheer Elegance.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
